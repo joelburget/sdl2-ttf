@@ -30,5 +30,5 @@ SDL_CFLAGS=`$SDL_CONFIG --cflags`
 AC_SUBST([SDL_CFLAGS])
 AC_SUBST([SDL_LIBS])
 
-AC_CONFIG_FILES([config.mk SDL-ttf.buildinfo])
+AC_CONFIG_FILES([config.mk SDL2-ttf.buildinfo])
 AC_OUTPUT

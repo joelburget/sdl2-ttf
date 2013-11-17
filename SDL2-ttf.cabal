@@ -1,5 +1,5 @@
 Cabal-Version:        >= 1.6
-Name:                 SDL-ttf
+Name:                 SDL2-ttf
 Version:              0.1.0
 Maintainer:           Joel Burget (joelburget@gmail.com)
 Author:               Joel Burget, Lemmih (lemmih@gmail.com)

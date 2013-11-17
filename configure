@@ -2681,7 +2681,7 @@ SDL_CFLAGS=`$SDL_CONFIG --cflags`
 
 
 
-ac_config_files="$ac_config_files config.mk SDL-ttf.buildinfo"
+ac_config_files="$ac_config_files config.mk SDL2-ttf.buildinfo"
 
 cat >confcache <<\_ACEOF
 # This file is a shell script that caches the results of configure
@@ -3374,7 +3374,7 @@ do
   case $ac_config_target in
     "includes/HsSDLConfig.h") CONFIG_HEADERS="$CONFIG_HEADERS includes/HsSDLConfig.h" ;;
     "config.mk") CONFIG_FILES="$CONFIG_FILES config.mk" ;;
-    "SDL-ttf.buildinfo") CONFIG_FILES="$CONFIG_FILES SDL-ttf.buildinfo" ;;
+    "SDL2-ttf.buildinfo") CONFIG_FILES="$CONFIG_FILES SDL2-ttf.buildinfo" ;;
 
   *) as_fn_error $? "invalid argument: \`$ac_config_target'" "$LINENO" 5;;
   esac
